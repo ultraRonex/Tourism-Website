@@ -1,0 +1,30 @@
+.blog-detail-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .blog-detail-img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 1rem 0;
+  }
+  
+  .blog-content {
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .comment-section {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid #eee;
+  }
+  
+  .comment {
+    background: #f5f5f5;
+    padding: 0.8rem;
+    margin-bottom: 0.6rem;
+    border-radius: 8px;
+  }
+  

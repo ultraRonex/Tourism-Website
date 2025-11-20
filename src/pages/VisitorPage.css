@@ -1,0 +1,561 @@
+/* VisitorPage Styles */
+.visitor-page {
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.guide-profile-card, .recent-blog-card, .available-place-card, .upcoming-event-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: 280px;
+  text-align: center;
+}
+
+.guide-profile-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.guide-profile-card h4, .recent-blog-card h4, .available-place-card h4, .upcoming-event-card h4 {
+  margin-bottom: 10px;
+}
+
+.read-more-btn, .contact-btn {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.read-more-btn:hover, .contact-btn:hover {
+  background-color: #0056b3;
+}
+
+.guide-profiles-container, .recent-blogs-container, .available-places-container, .upcoming-events-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  margin-top: 40px;
+}
+
+/* Carousel Styles */
+.carousel {
+  width: 100%;
+  height: 300px;
+  background: url('https://via.placeholder.com/1200x300') center center no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #0d6efd; /* Bootstrap Primary Blue */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+footer p {
+  margin: 0;
+}
+/* VisitorPage Styles */
+.visitor-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+/* Generic card style */
+.guide-profile-card,
+.recent-blog-card,
+.available-place-card,
+.upcoming-event-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 0 10px;
+  width: 250px;
+  flex-shrink: 0;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Guide Profile Image */
+.guide-profile-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Section Layouts (horizontal scrollable rows) */
+.guide-list,
+.blog-list,
+.places-list,
+.events-list {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px 0;
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbars for a cleaner look (optional) */
+.guide-list::-webkit-scrollbar,
+.blog-list::-webkit-scrollbar,
+.places-list::-webkit-scrollbar,
+.events-list::-webkit-scrollbar {
+  display: none;
+}
+
+.guide-profile-card h4,
+.recent-blog-card h4,
+.available-place-card h4,
+.upcoming-event-card h4 {
+  margin-bottom: 10px;
+}
+
+.read-more-btn,
+.contact-btn {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.read-more-btn:hover,
+.contact-btn:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+  font-size: 16px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Images inside blog/place/event cards */
+.blog-card-img,
+.place-card-img,
+.event-card-img {
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.blogger-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blogger-card {
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.blogger-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.places-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.available-place-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.available-place-card:hover {
+  transform: scale(1.03);
+}
+
+.place-card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.visitor-inbox {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.chat-message {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.pending-reply {
+  color: #999;
+  font-style: italic;
+}
+
+
+.guide-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* This brings the cards to the center */
+  gap: 20px; /* Adds space between cards */
+  padding: 20px;
+}
+
+.guide-profile-card {
+  width: 250px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.guide-profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.guide-profile-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.contact-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background-color: #0b5ed7;
+}
+
+
+
+.bloggers-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9; /* optional for contrast */
+}
+
+.blogger-list {
+  display: flex;
+  justify-content: center;   /* Center horizontally */
+  align-items: center;       /* Center vertically if needed */
+  flex-wrap: wrap;           /* Allow multiple rows */
+  gap: 30px;                 /* Space between cards */
+  max-width: 900px;
+  margin: 0 auto;            /* Center the entire row in the page */
+}
+
+.blogger-card {
+  width: 250px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.explore-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.explore-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.explore-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.explore-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.explore-card h4 {
+  margin: 10px 0;
+}
+
+.site-footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 1px solid #444;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+.cuisine-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.cuisine-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cuisine-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.cuisine-images img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cuisine-description {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+
+
+/* Ensure cards wrap on smaller screens */
+.guide-list, .places-list, .events-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Prevent card overflow */
+.guide-profile-card, .recent-blog-card, .available-place-card, .upcoming-event-card {
+  flex-shrink: 0;
+  max-width: 250px;
+  min-width: 250px;
+  margin: 10px;
+}
+
+/* Add hover effect for cards */
+.guide-profile-card:hover, .recent-blog-card:hover, .available-place-card:hover, .upcoming-event-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.heading-expert-guides {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a73e8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+
+.heading-destinations {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.2rem;
+  color: #f76c5e;
+  text-align: center; /* Changed 'middle' to 'center' for correct alignment */
+  padding-left: 15px;
+  padding-right: 15px; /* Added right padding for balance */
+  padding-top: 10px; /* Added top padding for spacing */
+  padding-bottom: 10px; /* Added bottom padding for spacing */
+  border-left: 5px solid #f76c5e;
+  font-weight: 600;
+  letter-spacing: 1px;
+  position: relative;
+  margin-bottom: 20px;
+  background-color: #f9f3f1; /* Light background color */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.heading-destinations:before {
+  content: '🌍';
+  font-size: 1.5rem;
+  position: relative;
+  left: -40px;
+  top: 0;
+}
+
+.heading-things-to-do {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.4rem;
+  color: #f39c12;
+  text-align: center;
+  padding-left: 20px;
+  border-left: 5px solid #f39c12;
+  font-weight: 600;
+  position: relative;
+  background-color: #f9f3f1; /* Light background color */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.heading-things-to-do::before {
+  /* content: "🎉"; */
+  font-size: 1.6rem;
+  position: absolute;
+  left: -25px;
+  top: 0;
+}
+
+
+.heading-guide-to-mangalore {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 2.6rem;
+  color: #2980b9;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px;
+  background-color: #ecf8ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.heading-guide-to-mangalore:hover {
+  background-color: #d6e9f8;
+  cursor: pointer;
+}
+
+.heading-adventure {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.3rem;
+  color: #27ae60;
+  text-align: center;
+  padding: 20px;
+  border: 2px dashed #27ae60;
+  background-color: #ecf8ec;
+  border-radius: 15px;
+  letter-spacing: 1.2px;
+}
+
+.heading-adventure::after {
+  content: "🌄";
+  font-size: 1.8rem;
+  margin-left: 10px;
+}
+
+.heading-hidden-gems {
+  font-family: 'Lora', serif;
+  font-size: 2.3rem;
+  color: #16a085;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  background-color: #ecf8ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.heading-hidden-gems::before {
+  /* content: "🔑"; */
+  position: absolute;
+  left: -35px;
+  top: 5px;
+  font-size: 2rem;
+}
+
+.visitor-page {
+  background-color: #58504942; /* Light grey background color */
+  padding: 20px; /* Padding around the content for spacing */
+  min-height: 100vh; /* Ensures the page takes at least the full viewport height */
+}

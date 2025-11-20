@@ -1,0 +1,44 @@
+/* Footer container */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Footer text */
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Footer links (if any) */
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer social media icons (optional) */
+  .footer .social-icons {
+    margin-top: 10px;
+  }
+  
+  .footer .social-icons a {
+    font-size: 18px;
+    margin: 0 15px;
+    color: white;
+  }
+  
+  .footer .social-icons a:hover {
+    color: #ff9800; /* Change this to any color you prefer */
+  }
+  

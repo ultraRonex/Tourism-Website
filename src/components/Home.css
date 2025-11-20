@@ -1,0 +1,22 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  padding: 20px;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
